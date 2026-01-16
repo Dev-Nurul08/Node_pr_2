@@ -32,6 +32,11 @@
         .btn-primary:hover {
             background: #5138ed;
         }
+        ::placeholder{
+            color: rgb(221, 57, 57);
+            font-weight: 600;
+        }
+
     </style>
 </head>
 
@@ -52,7 +57,7 @@
                     <form action="/add" method="POST">
                         <div class="row g-3">
                             <div class="col-md-7">
-                                <input type="text" name="text" class="form-control bg-dark text-white border-secondary"
+                                <input type="text" name="text" class="form-control text-white border-secondary "
                                     placeholder="What needs to be done?" required />
                             </div>
                             <div class="col-md-3">
